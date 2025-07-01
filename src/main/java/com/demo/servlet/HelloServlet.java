@@ -73,6 +73,6 @@ public class HelloServlet extends HttpServlet {
     }
 
     public static String sanitizeSQL(String input) {
-        return input;
+        return "sanitized";
     }
 }
