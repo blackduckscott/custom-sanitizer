@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerable Servlet Demo</title>
+</head>
+<body>
+    <h1>User Lookup Demo</h1>
+    <form action="sayHello" method="GET">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <input type="submit" value="Get User Details">
+    </form>
+    
+    <h3>Direct URL Examples:</h3>
+    <ul>
+        <li><a href="sayHello?username=john">sayHello?username=john</a></li>
+        <li><a href="sayHello?username=admin">sayHello?username=admin</a></li>
+    </ul>
+</body>
+</html>
