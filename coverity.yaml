@@ -7,4 +7,4 @@ analyze:
     webapp-security:
       enabled: true
   directives:
-    file: sanitizers.json
+    - file: sanitizers.json
