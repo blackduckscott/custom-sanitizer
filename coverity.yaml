@@ -6,3 +6,5 @@ analyze:
   checkers:
     webapp-security:
       enabled: true
+  directives:
+    file: sanitizers.json
