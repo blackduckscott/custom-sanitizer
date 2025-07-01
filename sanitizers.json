@@ -1,0 +1,18 @@
+{
+  "format_version" : 12,
+  "type" : "Coverity analysis configuration",
+  "language" : "java",
+  "directives" : [
+    {
+      "sanitizer_for_checker" : "SQLI",
+      "sanitizer" : {
+        "to_callsite" : {
+        "callsite_with_static_target" : {
+        "named" : "com.demo.servlet.HelloServlet.sanitizeSQL(java.lang.String)java.lang.String"
+                        }
+    },
+    "input" : "arg1"
+    }}  
+  ]
+  
+}
